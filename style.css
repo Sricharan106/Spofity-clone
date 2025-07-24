@@ -1069,4 +1069,10 @@ audio {
   .modal video{
     width: 350px;
   }
+  .player-author{
+    color: #fff;
+  }
+  .play, .prev, .next{
+    background-color: inherit;
+  }
 }
