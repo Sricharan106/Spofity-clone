@@ -1019,7 +1019,7 @@ audio {
   .player{
     bottom: 61px;
     width: 99%;
-    border: 1px solid #fff;
+    background-color: #888;
   }
   .repet, .loop, .curr-time, .tot-time, .mic, .hambuger_lines, .tv, .volume-icon, .volume-bar, .mini_player, .full_screen{
     display: none;
