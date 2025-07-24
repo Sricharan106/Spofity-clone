@@ -561,6 +561,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: inherit;
 }
 
 .player-control-icon:hover {
@@ -571,6 +572,7 @@ main {
   opacity: 1;
   height: 2rem;
   cursor: pointer;
+  background-color: inherit;
 }
 
 .progress-bar {
@@ -636,6 +638,7 @@ audio {
   object-fit: cover;
   border: none;
   display: none;
+  background-color: inherit;
 }
 
 .player-info {
@@ -643,17 +646,20 @@ audio {
   flex-direction: column;
   justify-content: center;
   margin-left: 10px;
+  background-color: inherit;
 }
 
 .player-author {
   font-size: 0.8rem;
   color: #888;
+  background-color: inherit;
 }
 
 .controls-icons {
   height: 1.4rem;
   margin-right: 0.4rem;
   margin: 22px 8px 0px 0px;
+  background-color: inherit;
 }
 
 .volume-icon {
@@ -1036,6 +1042,7 @@ audio {
   .photo{
     width: 70%;
     transform: translateY(3px);
+    background-color: inherit;
     /* z-index: 999; */
   }
   .playback-bar{
@@ -1051,6 +1058,7 @@ audio {
   .controls{
     width: fit-content;
     margin: 0px;
+    background-color: inherit;
   }
   .now_playing{
     display: block;
